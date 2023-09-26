@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main
+{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%, url(https://cdn.discordapp.com/attachments/952384075522531348/1154031254560313426/water.jpg?ex=6513771b&is=6512259b&hm=ed0d5ac868104b9063fd04d594b49f2c76cd8c9d193bb0d642cd525976605ec1&));
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}          
