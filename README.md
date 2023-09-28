@@ -9,5 +9,5 @@ Added hover effects for the navigation bar
 
 Changed background 
  
-Plans: 
+Plans:
 Removing the search bar changing it as href (hypertext reference) as "Search" then redirects to a page where to do the searching that also has a list
