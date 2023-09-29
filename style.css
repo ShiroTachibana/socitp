@@ -209,6 +209,7 @@ transition: transform 0.3s ease;
 	}
 	
 	#search {
+		
 	
 	display: flex;
 	
@@ -236,6 +237,7 @@ transition: transform 0.3s ease;
 	
 	padding: 1em 1em;
 	
+	
 	}
 	
 	#results {
@@ -259,10 +261,17 @@ transition: transform 0.3s ease;
 	margin-bottom: 10px;
 	
 	list-style-type: none;
+	border-color: #f2f2f2;
+		border-style: none;
+		border-width: 1px;
 	}
 	.sbox {
+		border-color: #f2f2f2;
+		border-style: none;
+		border-width: 1px;
 		background-color: #333;
 		overflow: hidden;
+	
 	  }
 	  
 	  .sbox a {
@@ -272,7 +281,7 @@ transition: transform 0.3s ease;
 		padding: 14px 16px;
 		text-decoration: none;
 		font-size: 17px;
-	  }
+			  }
 	  
 	  
 	  .sbox a:hover {
@@ -290,8 +299,13 @@ transition: transform 0.3s ease;
 	  .sbox .icon {
 		display: none;
 	  }
-	  .bbackground
+	  body
 	  {
-	      width: 100%;
-	      background-position: center;
+		background-size: cover;
+		background-image: url(./images/background.jpg);
+		background-repeat: no-repeat;
+	    background-position: center;
+		background-attachment: fixed;
+		background-color: #464646;
+
 	  }
