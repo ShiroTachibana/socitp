@@ -290,3 +290,8 @@ transition: transform 0.3s ease;
 	  .sbox .icon {
 		display: none;
 	  }
+	  .bbackground
+	  {
+	      width: 100%;
+	      background-position: center;
+	  }
