@@ -13,20 +13,20 @@
 }
 .navbar
 {
-    width: 1350px;
-    height: 75px;
+    width: 1300px;
+    height: 65px;
     margin: auto;
 }
 .icon
 {
     width: 200px;
     float: left;
-    height: 20px;
+    height: 15px;
 }
 .logo
 {
     color: white;
-    font-size: 20px;
+    font-size: 15px;
     font-family: Arial;
     padding-left: 20px;
     float: left;
@@ -34,13 +34,13 @@
 }
 .menu 
 {
-    width: 4000px;
+    width: 100px;
     float: left;
     height: 50px;
 }
 ul
 {
-    float: left;
+    float: right;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -50,7 +50,7 @@ ul li
    list-style: none;
    margin-left: 62px;
    margin-top: 20px;
-   font-size: 14px;
+   font-size: 15px;
 }
 ul li a
 {
@@ -127,6 +127,7 @@ transition: transform 0.3s ease;
 }
 .olph
 {
+	width: 100%;
 	color: #fff;
 	background-color: #333;
 	border: solid;
@@ -134,9 +135,9 @@ transition: transform 0.3s ease;
 	
 	
 }
-.olph h1
+.olph h2
 {
-	font-size: 15px;
+	font-size: 20px;
 	color: white;
 	font-family: Verdana;
 }
@@ -318,4 +319,14 @@ transition: transform 0.3s ease;
 	  hr
 	  {
 		width: 1350px;
+	  }
+	  .display
+	  {
+		background-color: #333;
+		border-color: aquamarine;
+		border-style: solid;
+		position: absolute;
+		border-radius: 1px;
+		justify-items: center;
+		align-items: center;
 	  }
