@@ -9,7 +9,7 @@
     background-position: center;
 	background-color: #333;
     background-size: cover;
-    height: 100px;
+    height: 75px;
 }
 .navbar
 {
@@ -127,13 +127,18 @@ transition: transform 0.3s ease;
 }
 .olph
 {
-	font-size: 20px;
-	color: white;
-	font-family: Verdana;
+	color: #fff;
 	background-color: #333;
 	border: solid;
 	border-width: 1px;
 	
+	
+}
+.olph h1
+{
+	font-size: 15px;
+	color: white;
+	font-family: Verdana;
 }
 .content
 {
